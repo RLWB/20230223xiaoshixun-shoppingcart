@@ -45,7 +45,8 @@ const totalPrice = computed(() => useCart().totalPrice);
 .cart {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  max-width: 600px;
+  width: 90%;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
